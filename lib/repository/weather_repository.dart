@@ -24,5 +24,5 @@ class FakeWeatherRepository implements WeatherRepository {
     });
   }
 }
-
+   
 class NetworkException implements Exception {}  
