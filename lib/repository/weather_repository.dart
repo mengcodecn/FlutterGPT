@@ -9,7 +9,7 @@ final weatherRepositoryProvider = Provider<WeatherRepository>((ref) {
 abstract class WeatherRepository {
   Future<Weather> fetchWeather(String cityName);
 }
-
+  
 class FakeWeatherRepository implements WeatherRepository {
   @override
   Future<Weather> fetchWeather(String cityName) {
