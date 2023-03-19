@@ -18,7 +18,7 @@ class FakeWeatherRepository implements WeatherRepository {
     double temperature = 20 + random.nextInt(15) + random.nextDouble();
     return Future.delayed(Duration(seconds: 1), () {
       if (random.nextBool()) {
-      throw NetworkException();
+      throw NetworkException();  
     }
       return Weather(cityName: cityName, temperature: temperature);
     });
