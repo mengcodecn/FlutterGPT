@@ -25,4 +25,4 @@ class FakeWeatherRepository implements WeatherRepository {
   }
 }
 
-class NetworkException implements Exception {}
+class NetworkException implements Exception {}  
